@@ -1,5 +1,32 @@
-# Object file
-*.o
+ # Создано https://www.gitignore.io/api/os
+# Изменить на https://www.gitignore.io/?templates=osx
 
-# Ada Library Information
-*.ali
+### OSX ###
+# Генеральный
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Значок должен заканчиваться двумя \ r
+Значок
+
+# Миниатюры
+._ *
+
+# Файлы, которые могут появиться в корне тома
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Каталоги, потенциально созданные на удаленном ресурсе AFP
+.AppleDB
+.AppleDesktop
+Сетевая папка для мусора
+Временные предметы
+.apdisk
+
+# Конец https://www.gitignore.io/api/osx
